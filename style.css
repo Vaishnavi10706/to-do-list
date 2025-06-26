@@ -1,0 +1,122 @@
+* {
+    text-align: center;
+    background-color: palevioletred;
+    font-family: 'dancing script',cursive;
+    background-repeat: no-repeat;
+}
+body{
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgb(240, 232, 235) ;
+}
+.container{
+    border: none;
+    border-radius: 15px;
+    background-color: palevioletred;
+    height: 70vh;
+    width:25vw;
+    box-shadow: 4px 5px 6px;
+}
+
+header {
+    color:black;
+    text-align: center;
+    font-weight: 900;
+    font-size: larger;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+#Task {
+    border:2px solid black;
+    background-color: white;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-romantic-beautiful-rose-flower-background-design-flower-backgroundplant-backgroundholiday-image_70028.jpg);
+    color: rgb(71, 3, 71);
+    font-size: larger;
+    padding: 5px 15px 5px 15px;
+}
+input{
+    border-radius: 5px;
+}
+input::placeholder {
+    color:rgb(71, 3, 71);
+    font-size: larger;
+}
+select{
+    border-radius: 5px;
+}
+#Prioritylevel {
+    border:2px solid black;
+    background-color: white;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-romantic-beautiful-rose-flower-background-design-flower-backgroundplant-backgroundholiday-image_70028.jpg);
+    color: rgb(71, 3, 71);
+    font-size: larger;
+    padding: 5px 15px 5px 15px;
+}
+.button {
+    padding: 3px 9px;
+    margin: 10px;
+    border-radius: 5px;
+}
+button:hover{
+    border: 3px solid black;
+}
+button {
+    border: 2px solid black;
+    background-color: white;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-romantic-beautiful-rose-flower-background-design-flower-backgroundplant-backgroundholiday-image_70028.jpg);
+    color: rgb(71, 3, 71);
+    font-size: larger;
+}
+#Date {
+    border: 2px solid black;
+    background-color: white;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-romantic-beautiful-rose-flower-background-design-flower-backgroundplant-backgroundholiday-image_70028.jpg);
+    color:rgb(71, 3, 71);
+    font-style: larger;
+    padding: 5px 15px;
+}
+.dark {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+.light {
+    background-color: white;
+    color:black;
+    border: 2px solid black;
+}
+
+ul {
+    list-style: none;
+    padding: 15px;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    padding: 8px;
+}
+table {
+    width: 100px;
+    margin-left: 28px;
+    border-collapse:collapse;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-top: 20px;
+    box-shadow: 4PX 5PX 6PX;
+}
+th, th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.Priority-Low { color: green; }
+.Priority-Medium { color: orange; }
+.Priority-High { color: red; }

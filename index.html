@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="link rel="preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Tagesschrift&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <header><h1><b>MY TO-DO LISTS</b></h1></header><br>
+        <input type="Text" id="Task" placeholder="Enter your task"><br><br>
+        <input type="date" id="Date" placeholder="select date"><br><br>
+        <select name="Priority Level" id="Prioritylevel">
+        <option value="">Priority Level</option>
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+        </select><br>
+        <button id="AddTask" class="button" onclick="addTask()">Add Task</button><br>
+        <button id="ChangeMode" class="button">Toggle Dark Mode</button><br>
+    </div>
+    <table id="taskTable">
+        <thead>
+            <tr>
+                <th>Task</th>
+                <th>Date</th>
+                <th>Priority</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
